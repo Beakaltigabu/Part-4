@@ -1,0 +1,36 @@
+{
+  "name": "bloglist-backend",
+  "version": "1.0.0",
+  "description": "Exercise for part-4",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test",
+    "lint": "eslint",
+    "start": "node  index.js",
+    "dev": "node --watch index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Beakaltigabu/Part-4.git"
+  },
+  "author": "Beakal Tigabu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Beakaltigabu/Part-4/issues"
+  },
+  "homepage": "https://github.com/Beakaltigabu/Part-4#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "lodash": "^4.17.21",
+    "mongoose": "^8.16.3",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.31.0",
+    "@stylistic/eslint-plugin": "^5.1.0",
+    "dotenv": "^17.2.0",
+    "eslint": "^9.31.0",
+    "globals": "^16.3.0"
+  }
+}
